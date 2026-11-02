@@ -1,0 +1,30 @@
+host,path,method,discovery_source,access_status,request_or_response_observations,testing_limitations
+www.cynbit.in,/,GET,User-provided origin,200 observed,Raw response Content-Type text/html and Content-Length 100660; Vercel cache HIT; see evidence/20261102T184041+0530-homepage-response-headers.txt,Single public response only; no backend/origin measurement
+www.cynbit.in,/contact,GET,Homepage navigation,Rendered publicly; status not recorded,Contact page with visible form fields,No form submission or validation test
+www.cynbit.in,/careers,GET,Homepage navigation,Rendered publicly; status not recorded,Careers listing page,Detail routes were not requested
+www.cynbit.in,/products,GET,Homepage navigation,Rendered publicly; status not recorded,Product page with visible form fields and product fragments,No form submission
+www.cynbit.in,/bitelevate,GET,Homepage navigation,Rendered publicly; status not recorded,Public page; payment flow references visible in client bundle,No server action or payment action invoked
+www.cynbit.in,/bitelevate/paths,GET,Homepage navigation,Rendered publicly; status not recorded,Learning paths and image resources observed,No performance impact measured
+www.cynbit.in,/navigation,GET,Homepage footer,Rendered publicly; status not recorded,Public navigation map,None
+www.cynbit.in,/blog,GET,Homepage navigation,Rendered publicly; status not recorded,Search and newsletter controls observed,No query submission or newsletter submission
+www.cynbit.in,/services,GET,Homepage navigation,Rendered publicly; status not recorded,Services hub,None
+www.cynbit.in,/case-studies,GET,Homepage navigation,Rendered publicly; status not recorded,Case study listing; 13 detail routes identified,Detail routes not requested
+www.cynbit.in,/diaries,GET,Homepage navigation,Rendered publicly; status not recorded,Diaries listing; 8 detail routes identified,Detail routes not requested
+www.cynbit.in,/blog/ai-agents-business-operations,GET,Homepage content link,Rendered publicly; status not recorded,Public article and newsletter form observed,No form submission
+www.cynbit.in,/privacy,GET,Homepage footer,Rendered publicly; status not recorded,Policy content page,No legal/compliance assessment
+www.cynbit.in,/terms,GET,Homepage footer,Rendered publicly; status not recorded,Terms page,No legal assessment
+www.cynbit.in,/cookies,GET,Homepage footer,Rendered publicly; status not recorded,Cookies page,No legal assessment
+www.cynbit.in,/robots.txt,GET,Public metadata,200 observed,200 text/plain; disallows /api/ /admin/ /portal/; names apex sitemap host,No disallowed route traversal except specifically authorized checks below
+www.cynbit.in,/sitemap.xml,GET,robots.txt Sitemap directive,200 observed,XML with 82 loc entries all using apex host cynbit.in,Entries not requested because canonical host is outside provided host scope
+www.cynbit.in,/.well-known/security.txt,GET,RFC 9116 conventional public metadata path,404 observed,Not found response,Observation limited to www host
+www.cynbit.in,/security.txt,GET,RFC 9116 conventional public metadata path,404 observed,Not found response,Observation limited to www host
+www.cynbit.in,/api/,GET,robots.txt Disallow; exact request explicitly authorized,308 observed,Location /api; Server Vercel; see evidence/20261102T190546+0530-robots-disallowed-path-get-check.txt,Exactly one GET; redirect not followed; slashless path and API behavior untested
+www.cynbit.in,/admin/,GET,robots.txt Disallow; exact request explicitly authorized,308 observed,Location /admin; Server Vercel; see evidence/20261102T190546+0530-robots-disallowed-path-get-check.txt,Exactly one GET; redirect not followed; slashless path and admin behavior untested
+www.cynbit.in,/portal/,GET,robots.txt Disallow; exact request explicitly authorized,308 observed,Location /portal; Server Vercel; see evidence/20261102T190546+0530-robots-disallowed-path-get-check.txt,Exactly one GET; redirect not followed; slashless path and portal behavior untested
+www.cynbit.in,/_next/static/chunks/app/(marketing)/contact/page-a581c8d7462124d9.js,GET,Observed browser resource list,200 observed,Static JS asset; 24530 text characters; URL-like literals only,Read-only inspection; not separately executed
+www.cynbit.in,/_next/static/chunks/app/(marketing)/products/page-637d1c81fb1ea500.js,GET,Observed browser resource list,200 observed,Static JS asset; 43981 text characters; URL-like literals only,Read-only inspection; not separately executed
+www.cynbit.in,/_next/static/chunks/app/(marketing)/bitelevate/page-e1cc18fdcf688572.js,GET,Observed browser resource list,200 observed,Static JS asset; 90393 text characters; server-action references and Cashfree SDK URL,Static inspection only; no action invocation or payment
+www.cynbit.in,/_next/static/chunks/app/(marketing)/blog/page-390d4846a05713eb.js,GET,Observed browser resource list,200 observed,Static JS asset; 7523 text characters,Read-only inspection; not separately executed
+www.cynbit.in,createBitelevateCashfreeOrder,UNKNOWN,Static public bundle reference,NOT_INVOKED,Next.js server-action name visible client-side; URL method payload response unknown,No server action request or payment attempt authorized/performed
+www.cynbit.in,verifyBitelevatePayment,UNKNOWN,Static public bundle reference,NOT_INVOKED,Next.js server-action name visible client-side; URL method payload response unknown,No server action request or payment attempt authorized/performed
+cynbit.in,/intern-portal/login,UNKNOWN,Static public bundle text,NOT_REQUESTED_OUT_OF_SCOPE,Portal login URL referenced in BitElevate client text,Host is outside explicit www scope; no visit or auth test

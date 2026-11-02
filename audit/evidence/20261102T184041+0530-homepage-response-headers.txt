@@ -1,0 +1,25 @@
+Observed at: 2026-11-02T18:40:41.0288609+05:30
+Method: GET
+URL: https://www.cynbit.in/
+Status: 200
+Content-Type: text/html; charset=utf-8
+Content-Length header: 100660
+Text characters returned by PowerShell: 100657
+Response headers:
+Access-Control-Allow-Origin: *
+Age: 3735
+Content-Disposition: inline
+Strict-Transport-Security: max-age=63072000
+Vary: rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch
+X-Matched-Path: /
+X-Nextjs-Prerender: 1
+X-Nextjs-Stale-Time: 300
+X-Vercel-Cache: HIT
+X-Vercel-Id: bom1::hldpt-1793625041067-46d6a6f23462
+Accept-Ranges: bytes
+Content-Length: 100660
+Cache-Control: public, max-age=0, must-revalidate
+Content-Type: text/html; charset=utf-8
+Date: Mon, 02 Nov 2026 13:10:41 GMT
+ETag: "feebbeb1fdd7e6b683fce689665186f6"
+Server: Vercel

@@ -1,0 +1,10 @@
+Observed at: 2026-11-02T18:41:57.0393784+05:30
+Asset: /_next/static/chunks/app/(marketing)/bitelevate/page-e1cc18fdcf688572.js; status=200; textChars=90393
+first occurrence 'cashfree':  0,d.findSourceMapURL,"verifyBitelevatePayment"),m=(0,d.createServerReference)("40450605530d78e25921058a0059197fdb18b5f074",d.callServer,void 0,d.findSourceMapURL,"createBitelevateCashfreeOrder");var x=a(75563),p=a(26497);function u(){let e={"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList",itemListElement:[{"@type":"ListItem",position:1,name:"Home",item:"https://cynbit.in"},{"@type":"ListItem",position:2,name:"BitElevate Remote Internship",item:"https://cynbit.in/bitelevate"}]
+first occurrence 'intern-portal/login': ex items-center gap-1.5",children:[(0,s.jsx)("span",{className:"material-symbols-outlined text-sm text-primary",children:"link"}),(0,s.jsx)("span",{children:"Portal URL: cynbit.in/intern-portal/login"})]}),(0,s.jsx)("button",{type:"button",onClick:()=>((e,t)=>{if("undefined"!=typeof navigator&&navigator.clipboard){let a="BitElevate Intern Portal Credentials\nLogin URL: https://cynbit.in/intern-portal/login\nUser ID: ".concat(e,"\nPassword: ").concat(t);navigator.clipboard.writeText(a),I(!0),setT
+term 'fetch(': no literal found
+term '/api/': no literal found
+term 'apiKey': no literal found
+term 'secret': no literal found
+term 'clientId': no literal found
+term 'appId': no literal found

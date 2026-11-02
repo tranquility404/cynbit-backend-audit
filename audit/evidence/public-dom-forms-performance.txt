@@ -1,0 +1,24 @@
+Assessment date: 2026-11-02 (+05:30)
+Collection: browser-rendered public pages and DOM inspection; read-only; no form submission or user data entered.
+
+Public routes rendered during review:
+/, /contact, /careers, /products, /bitelevate, /bitelevate/paths, /navigation, /blog, /services, /case-studies, /diaries, /blog/ai-agents-business-operations, /privacy, /terms, /cookies.
+
+Page/form control observations (presence and attributes only; behavior not tested):
+- /contact: required fullName (text), email, message; optional company and industry.
+- /products: required fullName, email, company, message.
+- /bitelevate: required fullName, university, email, phone, track (select), duration (select), ambitions; optional referralName.
+- /blog: optional q search control and required newsletter email.
+- /blog/ai-agents-business-operations: required newsletter email.
+- /careers listing: no form observed on the listing page.
+- Form element action/method attributes were absent in the inspected DOM. No submission destination, server-side handling, or validation behavior is inferred; client-side framework handlers may mediate behavior.
+
+Browser/root observations:
+- Page title: “Cynbit Technologies | AI Automation & Software Solutions Jaipur | Cynbit Technologies”.
+- `/_next/static/...` assets indicate a Next.js frontend; Google tag `G-LK6CQWCWX0`, Google Fonts/Material Symbols, and same-origin assets were present.
+- The root browser resource list contained 30 entries. No fetch/XHR/beacon entry and no `/api/`, GraphQL, or tRPC URL candidate appeared in that root-page sample. This is not evidence that no APIs exist on other pages/routes.
+- One navigation sample at a 1046x686 viewport: duration ~596.4 ms, DOMContentLoaded ~192.3 ms, load ~596.4 ms; transferSize 300, encodedBodySize 15,613, decodedBodySize 100,660. The local browser cache/profile and network were uncontrolled; not a benchmark.
+- Root DOM height was about 9,306 px at that viewport. No `meta[http-equiv]` elements were observed.
+- A BitElevate paths-page image URL used `/_next/image` with `w=1920&q=75` for source URLs containing `i.pravatar.cc/100?img=21/22/23`; actual transfer dimensions and performance impact were not measured.
+
+Interpretation: These are public-surface observations only. No conclusion is made about server-side validation, successful form processing, telemetry completeness, API absence, or production-user performance.

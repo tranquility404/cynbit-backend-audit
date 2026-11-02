@@ -1,0 +1,19 @@
+path,source,access_status,notes
+/,homepage navigation,visited_read_only,Rendered in browser; one raw GET response captured; see evidence/20261102T184041+0530-homepage-response-headers.txt
+/contact,homepage navigation,visited_read_only,Form controls observed; no submission or validation testing
+/careers,homepage navigation,visited_read_only,Careers listing; 20 detail routes linked/listed but not requested
+/products,homepage navigation,visited_read_only,Product Suite; anchors include #cynbit-studio #revio #tenantease; form controls observed only
+/bitelevate,homepage navigation,visited_read_only,Public BitElevate page; payment/credential workflow mapped from static client JS only; never invoked
+/bitelevate/paths,homepage navigation,visited_read_only,Learning Paths; public assets observed
+/navigation,homepage footer,visited_read_only,Public navigation map
+/blog,homepage navigation,visited_read_only,Listing, query/search control and newsletter form observed; no submission
+/services,homepage navigation,visited_read_only,Services hub
+/case-studies,homepage navigation,visited_read_only,Listing; 13 detail routes linked/listed but not requested
+/diaries,homepage navigation,visited_read_only,Listing; 8 detail routes linked/listed but not requested
+/blog/ai-agents-business-operations,homepage content link,visited_read_only,Public article page; newsletter form observed only
+/privacy,homepage footer,visited_read_only,Public policy page; no legal/compliance assessment performed
+/terms,homepage footer,visited_read_only,Public terms page; no legal/compliance assessment performed
+/cookies,homepage footer,visited_read_only,Public cookies page; no legal/compliance assessment performed
+/story,homepage navigation,discovered_not_requested,Company / Our Story; not requested; apex-host sitemap entry is outside scope
+/team,homepage navigation,discovered_not_requested,Company / Our Team; not requested; apex-host sitemap entry is outside scope
+/impact,homepage navigation,discovered_not_requested,Social Impact; not requested; apex-host sitemap entry is outside scope

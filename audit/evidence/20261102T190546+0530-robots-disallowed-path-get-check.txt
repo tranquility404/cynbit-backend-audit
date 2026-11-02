@@ -1,0 +1,26 @@
+Observed at: 2026-11-02T19:05:46.9477935+05:30
+Authorization: user explicitly authorized one unauthenticated read-only GET each to exactly the three listed www-host trailing-slash paths, recording status/redirect only.
+Request method: GET
+Redirect policy: disabled; no Location target followed.
+Response bodies: not read.
+Retries: none.
+
+https://www.cynbit.in/api/
+  Status: 308 Permanent Redirect
+  Location: /api
+  Content-Type: text/plain
+  Server: Vercel
+
+https://www.cynbit.in/admin/
+  Status: 308 Permanent Redirect
+  Location: /admin
+  Content-Type: text/plain
+  Server: Vercel
+
+https://www.cynbit.in/portal/
+  Status: 308 Permanent Redirect
+  Location: /portal
+  Content-Type: text/plain
+  Server: Vercel
+
+Interpretation: only trailing-slash canonicalization was observed. The slashless paths were not requested. This does not establish that API, admin, or portal applications exist at those locations or reveal their access controls.

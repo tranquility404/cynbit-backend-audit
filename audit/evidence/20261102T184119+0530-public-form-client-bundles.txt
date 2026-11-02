@@ -1,0 +1,14 @@
+Observed at: 2026-11-02T18:41:19.0859497+05:30
+Method: ordinary GET of static same-origin JavaScript chunks observed in public-page browser resource lists; source was inspected as text only and not executed separately.
+
+Asset: /_next/static/chunks/app/(marketing)/contact/page-a581c8d7462124d9.js; status=200; textChars=24530
+URL/API-like literals: https://cynbit.in/contact, https://schema.org
+
+Asset: /_next/static/chunks/app/(marketing)/products/page-637d1c81fb1ea500.js; status=200; textChars=43981
+URL/API-like literals: https://schema.org
+
+Asset: /_next/static/chunks/app/(marketing)/bitelevate/page-e1cc18fdcf688572.js; status=200; textChars=90393
+URL/API-like literals: https://cynbit.in, https://cynbit.in/bitelevate, https://cynbit.in/intern-portal/login\nUser, https://cynbit.in/logo.png, https://github.com/, https://schema.org, https://sdk.cashfree.com/js/v3/cashfree.js
+
+Asset: /_next/static/chunks/app/(marketing)/blog/page-390d4846a05713eb.js; status=200; textChars=7523
+URL/API-like literals: https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop
